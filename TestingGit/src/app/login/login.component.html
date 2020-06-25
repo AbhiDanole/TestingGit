@@ -1,0 +1,14 @@
+<div class="container">
+<div class="alert alert-warning" *ngIf="invalid">{{errormsg}}</div>
+
+<div>
+User Name : <input type="text" name="username" [(ngModel)]="username">
+Password  : <input type="password" name="password" [(ngModel)]="password">
+<button (click)="console()" class="btn btn-success">Login</button><br>
+</div>
+</div>
+
+
+
+
+
